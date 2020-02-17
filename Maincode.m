@@ -13,7 +13,7 @@ X = timeseriesForcastingRF(X); % forecasting the selected TS
 %% evaluate results
 
 X = evaluate(X);
-
+X = plotCumSum(X);
 
 
 
